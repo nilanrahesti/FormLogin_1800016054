@@ -22,6 +22,7 @@ class user extends Controller
         ];
         echo view('templates/wrapper', $data);
     }
+<<<<<<< HEAD
    // public function User_view(){
     //   $data =[
     //        'title' => 'Form Menu',
@@ -29,6 +30,8 @@ class user extends Controller
      //  ];
      //  echo view('Views/User_view/', $data);
  //  }
+=======
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
 
     public function regis(){
         helper(['form', 'url', 'date']);
@@ -46,6 +49,7 @@ class user extends Controller
         ];
 
         $save = $userModel->insert($data);
+<<<<<<< HEAD
         $session = session();
         session()->setFlashdata('message', 'selamat registrasi berhasil');
         return redirect() -> to(base_url('user'));
@@ -86,3 +90,23 @@ class user extends Controller
   //  }
  
  }
+=======
+       
+        return redirect() -> to(base_url('user'));
+    }
+    public function login(){
+
+        if($this->ada($_POST['email'],$_POST['password'])!=NULL) {
+
+            $session=session();
+            $session->set('email',$_POST['email']);
+            return $this->response->redirect(site_url('home'));
+        }else{
+            session()->setFlashdata('msg','Email/Password Salah!!!!');
+            return redirect()->to(site_url('user'));
+        }
+    }
+
+    
+}
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9

@@ -5,6 +5,7 @@ use CodeIgniter\Model;
 class M_user extends Model{
     protected $table = 'user';
     protected $allowedFields =['firstname','lastname','email','password','date_update'];
+<<<<<<< HEAD
 
 
    // public function getUser()
@@ -29,4 +30,6 @@ class M_user extends Model{
   //      $query = $this->db->table('user')->delete(array('firstname' => $id));
   //      return $query;
   //  } 
+=======
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
 }

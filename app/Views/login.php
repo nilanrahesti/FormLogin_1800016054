@@ -5,15 +5,32 @@
         <div class="row">
           <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
             <div class="login-brand">
+<<<<<<< HEAD
             <img src="<?= base_url('template') ?> /assets/img/avatar-5.png" alt="logo" width="90" class="shadow-light rounded-circle">
+=======
+            <img src="<?= base_url('template') ?> /assets/img/avatar-3.png" alt="logo" width="90" class="shadow-light rounded-circle">
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
             </div>
          
             <div class="card card-primary">
               <div class="card-header"><h3>Masuk</h3></div>
+<<<<<<< HEAD
         <?php if (!empty(session()->getFlashdata('message'))): ?>
         <div class="alert alert-info">
         <?= session()->getFlashdata('message') ?>
         </div>
+=======
+
+        <?php if (session()->get('message')) : ?> 
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-header="true"> &times; </span>
+        </button>
+        Anda Telah melakukan <strong><?= session()->getFlashdata('message'); ?></strong>
+        </div>
+
+        <script> $(".alert").alert(); </script>
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
         <?php endif; ?>
 
               <div class="card-body">
@@ -74,7 +91,11 @@
 							if ( $cek_password <> $password ) {
 								echo"<script>alert('Kata Sandi Salah')</script>";
 							} else {
+<<<<<<< HEAD
 								echo"<script>document,location.href='user_login/index'</script>";
+=======
+								echo"<script>document,location.href='index.html'</script>";
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
 							}
 
 						} else {

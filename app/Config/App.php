@@ -21,7 +21,11 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
+<<<<<<< HEAD
 	public $baseURL = 'http://localhost/form_login/public/';
+=======
+	public $baseURL = 'http://localhost/form_login1800016041/public/';
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
 
 	/*
 	|--------------------------------------------------------------------------

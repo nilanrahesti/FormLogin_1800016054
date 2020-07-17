@@ -1994,7 +1994,11 @@ a.bb {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
+<<<<<<< HEAD
   color: #3abaf4;
+=======
+  color: #666;
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
   text-align: center; }
 
 .font-weight-600 {
@@ -2009,7 +2013,11 @@ a.bb {
   .budget-price .budget-price-square {
     width: 15px;
     height: 3px;
+<<<<<<< HEAD
     background-color: #6fd6f0; }
+=======
+    background-color: #f9f9f9; }
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
   .budget-price .budget-price-label {
     font-size: 12px;
     font-weight: 600;
@@ -2058,7 +2066,11 @@ blockquote {
   padding: 20px;
   padding-left: 40px;
   font-style: oblique;
+<<<<<<< HEAD
   background-color: #1be6d5;
+=======
+  background-color: #f9f9f9;
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
   border-radius: 3px;
   position: relative;
   font-family: 'Time new Romans';
@@ -2075,7 +2087,11 @@ blockquote {
     margin-top: 10px; }
 
 .bg-whitesmoke {
+<<<<<<< HEAD
   background-color: #7b79fd !important; }
+=======
+  background-color: #f7f9f9 !important; }
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
 
 .ion {
   font-size: 15px; }
@@ -2342,7 +2358,11 @@ pre {
   .section .section-header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+<<<<<<< HEAD
     background-color: rgb(39, 25, 233);
+=======
+    background-color: #fff;
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
     border-radius: 3px;
     border: none;
     position: relative;
@@ -2361,7 +2381,11 @@ pre {
       margin-right: 15px; }
       .section .section-header .section-header-back .btn:hover {
         background-color: #6777ef;
+<<<<<<< HEAD
         color: rgb(29, 43, 175); }
+=======
+        color: #fff; }
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
     .section .section-header .section-header-button {
       margin-left: 20px; }
     .section .section-header .section-header-breadcrumb {

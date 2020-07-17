@@ -15,4 +15,8 @@
   <!-- Template CSS -->
   <link rel="stylesheet" href="<?= base_url('template')?>/assets/css/style.css">
   <link rel="stylesheet" href="<?= base_url('template')?>/assets/css/components.css">
+<<<<<<< HEAD
 </head>
+=======
+</head>
+>>>>>>> 02d8cc4e459087195b2ba489f8476cd4a9193ce9
